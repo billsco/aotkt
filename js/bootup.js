@@ -6,7 +6,7 @@ EG3.Bootup = function() {
 EG3.Bootup.prototype = {
   preload: function() {
     console.log("Bootup preload");
-    this.load.image('preloadeImage', 'assets/loader.gif');
+    this.load.image('preloadeImage', 'assets/wholeSprite.png');
   },
   create: function() {
     console.log("Bootup create");
